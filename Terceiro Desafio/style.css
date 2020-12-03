@@ -1,0 +1,73 @@
+
+body{
+    width: 99%;
+    background-color: #a3a3a3;
+    font-family: "Nerko One", sans-serif;
+}
+h3 {
+    font-size: 20px;
+}
+
+li {
+    font-size: 17px;
+    margin-bottom: 3px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.itens-container {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    
+}
+
+.titles {
+    margin-top: 8px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #e76005;
+}
+
+#drink-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: auto;
+    padding: 5px;
+    transition: 0.2s;
+}
+
+#drink-image:hover {
+    width: 420px;
+}
+
+#the-link {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color:#af5112;
+    transition: 0.5s;
+    text-align: center;
+}
+
+#the-link:hover {
+    color: #812e2e;
+}
+
+#the-link:visited {
+    text-decoration: none;
+}
+
+@media(max-width: 970px) {
+    .content-container {
+        margin-right: 8px;
+    }
+}
